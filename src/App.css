@@ -60,12 +60,18 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  z-index: 1.5;
+  z-index: 1;
 }
 
 .main-info h1 {
   color: var(--primary-orange);
   text-transform: uppercase;
+}
+
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.5rem;
+  }
 }
 
 /**** Typed text *******/
@@ -74,7 +80,11 @@ nav ul li {
   color: var(--primary-orange);
 }
 
-
+@media(max-width: 768px) {
+  .typed-text {
+    font-size: 1.5rem;
+  }
+}
 /**** Header Button Main offer *******/
 .btn-main-offer {
   border: 1px solid var(--primary-red);
@@ -85,6 +95,13 @@ nav ul li {
   margin-top: 2rem;
 }
 
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-hover-red);
+  color: var(--primary-white);
+  transition: 2s ease-in-out;
+}
+
 /**** particles *******/
 .tsparticles-canvas-el {
   position: absolute;
@@ -93,3 +110,8 @@ nav ul li {
   z-index: 1;
 }
 
+@media(max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
+}
