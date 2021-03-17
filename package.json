@@ -4,7 +4,7 @@
   "private": true,
   "rules" : {
     "no-unused-vars": "off"
-  }
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
