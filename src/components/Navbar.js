@@ -1,6 +1,6 @@
 import React from 'react'
-import myPicture from "../myPicture.jpg"
-import Avatar from '@material-ui/core/Avatar';
+//import myPicture from "../myPicture.jpg"
+//import Avatar from '@material-ui/core/Avatar';
 // react fontawesome imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
