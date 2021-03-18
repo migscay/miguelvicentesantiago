@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap");
+@import url("https://cdn.jsdelivr.net/gh/kristoferjoseph/flexboxgrid@master/dist/flexboxgrid.min.css");
+
+:root {
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgba(255,255,255,0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501
+}
+
+
+body {
+  font-family: "Roboto Condensed" sans-serif;
+  font-family: sans-serif;
+  background: rgb(237, 165, 218);
+  background: linear-gradient(
+    191deg,
+    rgba(237, 165, 218, 1) 19%,
+    rgba(255, 177, 0, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+form,
+h2,
+strong {
+  color: rgb(87, 87, 87);
+}
+
+h2 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+form {
+  background-color: rgb(255, 255, 255);
+  max-width: 500px;
+  border-radius: 5px;
+  text-align: left;
+  box-sizing: border-box;
+  box-shadow: 0 25px 70px rgba(34, 34, 34, 0.459);
+  margin: 50px auto;
+  /* > * {
+    padding: 15px;
+  } */
+}
+
+#example-form {
+  max-width: 600px;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+}
+
+input,
+textarea {
+  &:not([type="checkbox"]):not([type="radio"]) {
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    display: block;
+  }
+  box-sizing: border-box;
+  outline: none;
+  background: rgb(238, 238, 238);
+  border: 1px solid rgb(238, 238, 238);
+  padding: 5px 15px;
+  transition: all 0.1s;
+
+  color: rgb(116, 116, 116);
+
+  &:focus {
+    border: 1px solid rgba(237, 165, 218, 1);
+    background: rgb(248, 248, 248);
+  }
+}
+
+
+input {
+  &:not([type="checkbox"]):not([type="radio"]):not([type="textarea"]) {
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    display: block;
+  }
+  box-sizing: border-box;
+  outline: none;
+  background: rgb(238, 238, 238);
+  border: 1px solid rgb(238, 238, 238);
+  padding: 5px 15px;
+  transition: all 0.1s;
+
+  color: rgb(116, 116, 116);
+
+  &:focus {
+    border: 1px solid rgba(237, 165, 218, 1);
+    background: rgb(248, 248, 248);
+  }
+}
+
+textarea {
+  &:not([type="checkbox"]):not([type="radio"]):not([type="text"]) {
+    width: 100%;
+    border-radius: 5px;
+    height: 260px;
+    display: block;
+  }
+  box-sizing: border-box;
+  outline: none;
+  background: rgb(238, 238, 238);
+  border: 1px solid rgb(238, 238, 238);
+  padding: 5px 15px;
+  transition: all 0.1s;
+
+  color: rgb(116, 116, 116);
+
+  &:focus {
+    border: 1px solid rgba(237, 165, 218, 1);
+    background: rgb(248, 248, 248);
+  }
+}
+
+label {
+  position: relative;
+
+  &.valid {
+    input {
+      border: 1px solid rgb(150, 212, 157);
+      background: rgb(248, 250, 247);
+    }
+  }
+
+  &.warning {
+    input {
+      border: 1px solid rgb(206, 175, 109);
+      background: rgb(243, 240, 233);
+      color: rgb(223, 172, 77);
+    }
+
+    color: rgb(223, 172, 77);
+  }
+
+  &.invalid {
+    input {
+      border: 1px solid rgb(206, 109, 109);
+      background: rgb(243, 233, 233);
+      color: rgb(223, 77, 77);
+    }
+
+    color: rgb(223, 77, 77);
+  }
+}
+
+.error-container {
+  text-align: right;
+  font-size: 12px;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+strong {
+  padding-bottom: 5px;
+}
+
+label {
+  display: block;
+  padding-bottom: 15px;
+}
+
+.inline-labels label {
+  display: inline-block;
+}
+
+/****Menu Links *******/
+nav{
+  z-index: 2;
+}
+nav a.nav-link {
+  /* font-weight: 500; */
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+
+.navbar-nav > li > a.active:focus, .navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+
+/****Header *******/
+
+.header-wraper {
+  position: relative;
+  background: url(./yellow-coffee-mug-spectacle-open-laptop-stationeries-wooden-table-with-brick-wall-background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.main-info h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/**** Typed text *******/
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-orange);
+}
+
+@media(max-width: 768px) {
+  .typed-text {
+    font-size: 1.5rem;
+  }
+}
+/**** Header Button Main offer *******/
+.btn-main-offer {
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-orange);
+  margin-top: 2rem;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-hover-red);
+  color: var(--primary-white);
+  transition: 2s ease-in-out;
+}
+
+/**** particles *******/
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vh;
+  z-index: 1;
+}
+
+@media(max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
+}
+
+/* About page */
+.about-wraper {
+    background-color: lightgray;
+    background-size: 400% 400%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+    height: 85vh;
+}
+
+.about__picture {
+    flex: 0.2;
+}
+
+.about__img {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    padding-left: 20px;
+}
+
+.about__paragraph {
+    flex: 0.8;
+    text-align: justify;
+    padding-left: 80px;
+    font-size: 34px;
+}
+
+/* Contact page */
+.contact-wraper {
+    padding-top: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85vh;
+
+    /* display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+    height: 85vh; */
+}
+  
