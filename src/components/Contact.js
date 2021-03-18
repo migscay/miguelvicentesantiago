@@ -42,9 +42,12 @@ export default function Form() {
     runValidate();
     if (!result.hasErrors()) {
       sendEmail(e);
-      setFormState({["from_name"]: "" });
-      setFormState({["from_email"]: "" });
-      setFormState({["message"]: "" });
+      // setFormState({["from_name"]: "" });
+      // setFormState({["from_email"]: "" });
+      // setFormState({["message"]: "" });
+      setFormState({"from_name": "" });
+      setFormState({"from_email": "" });
+      setFormState({"message": "" });
       alert("Thank you for your message. I will reply soon.")
     }
   };
