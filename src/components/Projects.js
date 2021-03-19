@@ -33,7 +33,7 @@ const Projects = () => {
                         <img className="card__img" src={piano_player} alt="piano-player"></img>
                         <hr/>
                         {(<div class="pb-3">Languages: 
-                            <p className="badge badge-light">JavaScript: 54.3 % HTML: 24.7 % CSS: 21 %
+                            <p className="badge badge-light">HTML: 24.7 % JavaScript: 54.3 % CSS: 21 %
                             </p>
                         </div>)}
                     </div>
@@ -47,7 +47,7 @@ const Projects = () => {
                         <img className="card__img" src={task_planner} alt="task_planner"></img>
                         <hr/>
                         {(<div class="pb-3">Languages: 
-                            <p className="badge badge-light">JavaScript: 57.2 % HTML: 41.4 % CSS: 1.4 %
+                            <p className="badge badge-light">HTML: 41.4 % JavaScript: 57.2 % CSS: 1.4 %
                             </p>
                         </div>)}
                     </div>
