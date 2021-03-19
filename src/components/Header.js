@@ -12,6 +12,7 @@ const Header = () => {
                        backSpeed={80}
                        loop
                 ></Typed>
+                <a href="https://www.freepik.com/photos/background">Background photo created by freepik - www.freepik.com</a>    
                 {/* <a href="#" className="btn-main-offer">Contact Me</a> */}
             </div>
         </div>  

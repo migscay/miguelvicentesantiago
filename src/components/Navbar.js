@@ -1,5 +1,5 @@
 import React from 'react'
-import myPicture from "../myPicture.jpg"
+import myPicture from "./assets/myPicture.jpg"
 import Avatar from '@material-ui/core/Avatar';
 // react fontawesome imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,7 +8,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        // <div class="container ">
+        <nav className="navbar navbar-top navbar-expand-lg navbar-light bg-dark">
             <div className="container">
                 <Link to="/"><Avatar alt="Miguel Santiago" src={myPicture} /></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,6 +33,7 @@ const Navbar = () => {
                 </div>
             </div>
         </nav>  
+        // </div>
     )
 }
 
