@@ -5,8 +5,8 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import PictureAsPdfIcon from '@material-ui/icons/PictureAsPdf';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 // react fontawesome imports
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+//import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 const Footer = () => {

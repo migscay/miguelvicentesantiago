@@ -2,8 +2,8 @@ import React from 'react'
 import myPicture from "./assets/myPicture.jpg"
 import Avatar from '@material-ui/core/Avatar';
 // react fontawesome imports
-//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-//import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
