@@ -6,14 +6,14 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import { Particles } from "react-particles-js";
+//import { Particles } from "react-particles-js";
 import { BrowserRouter as Router, Route} from "react-router-dom";
 
 function App() {
   return (
     <>
     <Router>
-      <Particles 
+      {/* <Particles 
         className="particles-canvas"
         params={{
           particles: {
@@ -33,7 +33,7 @@ function App() {
             }
           }  
         }}    
-      />
+      /> */}
         <Navbar />
         <Route path="/" exact component={Header} />
         <Route path="/About" exact component={About} />
