@@ -3,6 +3,8 @@ import piano_player from './assets/Piano.gif';
 import task_planner from './assets/Task.gif';
 import weather_map from './assets/Weather.gif';
 import bitcoin_ticker from './assets/bitcoin.gif';
+import todolist from './assets/todolist.gif';
+
 
 const Projects = () => {
     return (
@@ -59,6 +61,20 @@ const Projects = () => {
                         </a>
                         <p className="card-text projects__card__text">Search for a place and get the current weather.</p>
                         <img className="card__img" src={weather_map} alt="weather_map"></img>
+                        <hr/>
+                        <div class="pb-3">Languages: 
+                            <p className="badge badge-light">HTML: 57.9 % JavaScript: 42.1 %
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="projects__card card shadow-lg p-3 mb-5 bg-white rounded card">
+                    <div className="card-body">
+                        <a href="https://my-things-todo-app.herokuapp.com/" target="_blank" rel="noreferrer">
+                            <h5 className="card-title">https://my-things-todo-app.herokuapp.com/</h5>
+                        </a>
+                        <p className="card-text projects__card__text">A To do list done with Laravel,PHP, MySQL and VUE.js</p>
+                        <img className="card__img" src={todolist} alt="Todo List"></img>
                         <hr/>
                         <div class="pb-3">Languages: 
                             <p className="badge badge-light">HTML: 57.9 % JavaScript: 42.1 %
