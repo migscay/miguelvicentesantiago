@@ -77,7 +77,7 @@ const Projects = () => {
                         <img className="card__img" src={todolist} alt="Todo List"></img>
                         <hr/>
                         <div class="pb-3">Languages: 
-                            <p className="badge badge-light">HTML: 57.9 % JavaScript: 42.1 %
+                            <p className="badge badge-light">PHP: 88.6% Vue: 5.6% Blade: 4.9% Shell: 0.9%
                             </p>
                         </div>
                     </div>
