@@ -4,6 +4,7 @@ import task_planner from './assets/Task.gif';
 import weather_map from './assets/Weather.gif';
 import bitcoin_ticker from './assets/bitcoin.gif';
 import todolist from './assets/todolist.gif';
+import noteTaking from './assets/noteTaking.gif';
 
 
 const Projects = () => {
@@ -80,6 +81,20 @@ const Projects = () => {
                             <p className="badge badge-light">PHP: 88.6% Vue: 5.6% Blade: 4.9% Shell: 0.9%
                             </p>
                         </div>
+                    </div>
+                </div>
+                <div className="projects__card card shadow-lg p-3 mb-5 bg-white rounded card">
+                    <div className="card-body">
+                        {/* <a href="https://my-things-todo-app.herokuapp.com/" target="_blank" rel="noreferrer">
+                            <h5 className="card-title">https://my-things-todo-app.herokuapp.com/</h5>
+                        </a> */}
+                        <p className="card-text projects__card__text">A note taking widows app done with C#</p>
+                        <img className="card__img" src={noteTaking} alt="Todo List"></img>
+                        <hr/>
+                        {/* <div class="pb-3">Languages: 
+                            <p className="badge badge-light">PHP: 88.6% Vue: 5.6% Blade: 4.9% Shell: 0.9%
+                            </p>
+                        </div> */}
                     </div>
                 </div>
             </div>
