@@ -1,5 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
+import whitebackground from "./assets/cool-background.png";
+
 
 const Header = () => {
     return (
@@ -12,7 +14,6 @@ const Header = () => {
                        backSpeed={80}
                        loop
                 ></Typed>
-                <a href="https://www.freepik.com/photos/background">Background photo created by freepik - www.freepik.com</a>    
                 {/* <a href="#" className="btn-main-offer">Contact Me</a> */}
             </div>
         </div>  
