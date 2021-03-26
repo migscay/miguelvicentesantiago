@@ -1,6 +1,5 @@
 import React from "react";
 import Typed from "react-typed";
-import whitebackground from "./assets/cool-background.png";
 
 
 const Header = () => {
