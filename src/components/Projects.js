@@ -5,7 +5,8 @@ import weather_map from './assets/Weather.gif';
 import bitcoin_ticker from './assets/bitcoin.gif';
 import todolist from './assets/todolist.gif';
 import noteTaking from './assets/noteTaking.gif';
-
+import mvptalent from './assets/mvptalent.gif';
+import mvpstore from './assets/mvpstore.gif';
 
 const Projects = () => {
     return (
@@ -16,6 +17,32 @@ const Projects = () => {
                 </div>
                 <div className="projects__card card shadow-lg p-3 mb-5 bg-white rounded card">
                     <div className="card-body">
+                        <a href="http://mvptalentm.azurewebsites.net/Home" target="_blank" rel="noreferrer">
+                            <h5 className="card-title">http://mvptalentm.azurewebsites.net/Home</h5>
+                        </a>
+                        <p className="card-text projects__card__text">A Web App for Employers to Post jobs and get Talents from Job seekers.</p>
+                        <img className="card__img" src={mvptalent} alt="MVP Talent"></img>
+                        <hr/>
+                        <div class="pb-3">Languages: 
+                            <p className="badge badge-light">`JavaScript: 78.7% C#: 4.2% CSS: 16.9%  Other: 0.2%`</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="projects__card card shadow-lg p-3 mb-5 bg-white rounded card">
+                    <div className="card-body">
+                        <a href="http://mvpstore.azurewebsites.net" target="_blank" rel="noreferrer">
+                            <h5 className="card-title">http://mvpstore.azurewesites.net</h5>
+                        </a>
+                        <p className="card-text projects__card__text">ASP.NET Core MVC app with React, with the database on Microsoft SQL Server.</p>
+                        <img className="card__img" src={mvpstore} alt="mvpstore"></img>
+                        <hr/>
+                        <div class="pb-3">Languages: 
+                            <p className="badge badge-light">`JavaScript: 60.8% C#: 35.8% HTML: 2.6% CSS: 0.8%`</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="projects__card card shadow-lg p-3 mb-5 bg-white rounded card">
+                    <div className="card-body">
                         <a href="https://bitcoin-ticker.vercel.app/" target="_blank" rel="noreferrer">
                             <h5 className="card-title">https://bitcoin-ticker.vercel.app/</h5>
                         </a>
@@ -23,7 +50,7 @@ const Projects = () => {
                         <img className="card__img" src={bitcoin_ticker} alt="bitcoin_ticker"></img>
                         <hr/>
                         <div class="pb-3">Languages: 
-                            <p className="badge badge-light">TypeScript: 57.4 % HTML: 42.6 %</p>
+                            <p className="badge badge-light">`TypeScript: 57.4% HTML: 42.6%`</p>
                         </div>
                     </div>
                 </div>
@@ -36,8 +63,7 @@ const Projects = () => {
                         <img className="card__img" src={piano_player} alt="piano-player"></img>
                         <hr/>
                         {(<div class="pb-3">Languages: 
-                            <p className="badge badge-light">HTML: 24.7 % JavaScript: 54.3 % CSS: 21 %
-                            </p>
+                            <p className="badge badge-light">`HTML: 24.7% JavaScript: 54.3% CSS: 21%`</p>
                         </div>)}
                     </div>
                 </div>
@@ -50,8 +76,7 @@ const Projects = () => {
                         <img className="card__img" src={task_planner} alt="task_planner"></img>
                         <hr/>
                         {(<div class="pb-3">Languages: 
-                            <p className="badge badge-light">HTML: 41.4 % JavaScript: 57.2 % CSS: 1.4 %
-                            </p>
+                            <p className="badge badge-light">`HTML: 41.4% JavaScript: 57.2% CSS: 1.4%`</p>
                         </div>)}
                     </div>
                 </div>
@@ -64,8 +89,7 @@ const Projects = () => {
                         <img className="card__img" src={weather_map} alt="weather_map"></img>
                         <hr/>
                         <div class="pb-3">Languages: 
-                            <p className="badge badge-light">HTML: 57.9 % JavaScript: 42.1 %
-                            </p>
+                            <p className="badge badge-light">`HTML: 57.9% JavaScript: 42.1%`</p>
                         </div>
                     </div>
                 </div>
@@ -78,8 +102,7 @@ const Projects = () => {
                         <img className="card__img" src={todolist} alt="Todo List"></img>
                         <hr/>
                         <div class="pb-3">Languages: 
-                            <p className="badge badge-light">PHP: 88.6% Vue: 5.6% Blade: 4.9% Shell: 0.9%
-                            </p>
+                            <p className="badge badge-light">`PHP: 88.6% Vue: 5.6% Blade: 4.9% Shell: 0.9%`</p>
                         </div>
                     </div>
                 </div>
