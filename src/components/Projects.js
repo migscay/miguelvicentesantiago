@@ -20,7 +20,7 @@ const Projects = () => {
                         <a href="http://mvptalentm.azurewebsites.net/Home" target="_blank" rel="noreferrer">
                             <h5 className="card-title">http://mvptalentm.azurewebsites.net/Home</h5>
                         </a>
-                        <p className="card-text projects__card__text">A Web App for Employers to Post jobs and get Talents from Job seekers.</p>
+                        <p className="card-text projects__card__text">Talent app connects job seekers and employers. It also provides the functions for both candidates and employers to manage the recruitment process.</p>
                         <img className="card__img" src={mvptalent} alt="MVP Talent"></img>
                         <hr/>
                         <div class="pb-3">Languages: 
