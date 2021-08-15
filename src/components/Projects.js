@@ -19,7 +19,7 @@ const Projects = () => {
                 </div>
                 <div className="projects__card card shadow-lg p-3 mb-5 bg-white rounded card">
                     <div className="card-body">
-                        <a href="https://mvptalentm.azurewebsites.net/Home" target="_blank" rel="noreferrer">
+                        <a href="https://talent-app.azurewebsites.net/home" target="_blank" rel="noreferrer">
                             <h5 className="card-title">https://mvptalentm.azurewebsites.net/Home</h5>
                         </a>
                         <p className="card-text projects__card__text">Talent app connects job seekers and employers. It also provides the functions for both candidates and employers to manage the recruitment process.</p>
